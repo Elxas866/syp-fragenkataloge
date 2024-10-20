@@ -32,9 +32,24 @@ Unsicherheit = Veracity, Falsche Messwerte/Daten können zu Abweichungen führen
    
 ## Nennen Sie einige Techniken und Ideen hinter BigData und erklären Sie diese kurz!
 ### MapReduce
+Datenverarbeitungsparadigma im Bereich BigData. Vorgehensweise:
+1. **Map**: Eingabedaten werden auf eine Menge von Prozessen verteilt, welche die vom Nutzer bereitgestellte Map-Funktion ausführen => Schlüssel-Wert-Paare
+2. **Shuffle** & Sort: Werte eines Schlüssels zu Listen zusammenfassen und Schlüssel sortieren => Schlüssel-Wertlisten-Paare
+3. **Reduce**: Die Werte der Wertlisten werden aggregiert ausgegeben
 ### Shared-Nothing-Architektur / verteilte (Datei-)Systeme / horizontale Skalierung
+IT-Architektur, die aus mehreren autonomen Knoten besteht, die ein verteiltes System bilden. Jeder Knoten kann selbständig arbeiten.
 ### NoSQL-Datenbanken
-### ...
+NoSQL = Not-only SQL
+- Daten werden nicht normalisiert, kein starres Datenbankschema (Schemafreiheit)
+- Fokus auf Skalierbarkeit und hoher Performance
+	- Konsistenz der Daten (oft) nicht garantiert (ACID-Prinzip)
+	- Transaktionen nur eingeschränkt oder gar nicht unterstützt
+- Partition tolerant: Systeme funktionieren auch über physische Netzerwerkpartitionen
+- In 4 Klassen unterteilt:
+	- Spaltenorientiert
+	- Schlüssel-Wert-orientiert
+	- Dokumentorientiert
+	- Graphenbasiert
 
 ## Was versteht man unter Stream- bzw Batch-basierter Verarbeitung von Daten?
 
