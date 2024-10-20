@@ -64,7 +64,9 @@ Einsatz von KI-Systemen steht noch am Anfang.
 
 ## Was versteht man unter DDO/DDG sowie Datensilos und in welchem Zusammenhang stehen diese Begriffe? Warum sind Daten für Unternehmen so wichtig bzw. wofür können diese verwendet werden?
 ### DDO (Data-driven Organization)
+??? Bitte ergänzen
 ### DDG (Data-driven Government)
+??? Bitte ergänzen
 
 ## Wie viel Prozent ihrer IT-Services beziehen Unternehmen aktuell aus der Cloud (off-premise) bzw. aus dem eigenen Rechenzentrum (on-premise)? Wie wird das nach Einschätzung der Befragten in 5 Jahren aussehen?
 Sehr großer Anteil on-premise, in 5 Jahren deutlich weniger => Cloud Nutzung steigt.
@@ -73,5 +75,16 @@ Sehr großer Anteil on-premise, in 5 Jahren deutlich weniger => Cloud Nutzung st
 43,1% => Treibhausgase sollen heftig reduiert werden. Ressourcenverbrauchs senken, erneuerbare Energie nutzen.
 
 ## Welche Technologietrends haben besonders hohe/geringe Bedeutung?
+1. Zero Trust
+2. Schutz gegen Angriffe mit KI-Lösungen
+3. Multicloud-Lösungen
+4. Generative Künstliche Intelligenz
+5. intelligente Prozessautomatisierung
 
 ## Was versteht man unter Zero Trust / (intelligent) Robotic-Process-Automation / Multicloud / Generative KI / Edge Computing / Digital Twin ?
+- **Zero Trust**: Alle Dienste, Geräte und Anwender im eigenen Netzwerk werden wie Externe behandelt => Angreifer haben viele Hürden zu umgehen.
+**(intelligent) Robotic-Process-Automation (RPA)**: Prozessautomatisierung mit KI-Entscheidungen
+- **Multicloud**: Mehrere Cloud Services nutzen => erweitert die Anbieterauswahl
+- **Generative KI**: KI, die Sachverhalte anhand von bestehenden Daten erzeugen kann
+- **Edge Computing**: Verarbeitung von Daten in der Nähe des Ortes, an dem sie erzeugt werden
+- **Digital Twin**: virtuelle Darstellung eines Objekts oder Systems, die ein physisches Objekt genau widerspiegeln soll
