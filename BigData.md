@@ -25,8 +25,10 @@ Datensätze, deren Größe über die Fähigkeit typischer Datenbanksoftwaretools
 	- XML-Dokument (ohne Schema/DTD)
 
 ## Vergleichen Sie BigData und DataWarehouses?
+Big Data Anwendungen arbeiten (im Gegensatz zu Data Warehouse Systemen) in der Regel ohne aufwändige Aufbereitung der Daten
 
 ## Was versteht man unter unsicheren Daten und welche Konsequenz hat dies für die Speicherung/Auswertung von BigData?
+Unsicherheit = Veracity, Falsche Messwerte/Daten können zu Abweichungen führen
    
 ## Nennen Sie einige Techniken und Ideen hinter BigData und erklären Sie diese kurz!
 ### MapReduce
@@ -37,9 +39,28 @@ Datensätze, deren Größe über die Fähigkeit typischer Datenbanksoftwaretools
 ## Was versteht man unter Stream- bzw Batch-basierter Verarbeitung von Daten?
 
 ## Nennen und beschreiben Sie kurz die 4 logischen Schichten einer BigData-Architektur!
+1. **Datenquellen (Auswahl/Aufbereitung)**: Daten werden geprüft, korreliert, aufbereitet und transformiert um sie “speicherbereit” zu machen
+2. **Datenspeicherung**: Hier werden die gesammelten Daten abgelegt/persistiert
+3. **Datenverarbeitung/-analyse**: Hier werden die Daten verarbeitet und analysiert
+4. **Ausgabe/Präsentation**: Hier werden die gewonnenen Informationen in geeigneter Form (Diagramme, Berichte, …) für die jeweilige Zielgruppe dargestellt
 
 ## Nennen Sie 5 Anwendungsfelder für BigData!
+- Marketing und Vertrieb
+- Produktion und Logistik
+- Medizin
+- Finanzbereich
+- Personaldatenmanagement
 
 ## Nennen Sie wesentliche Herausforderungen im Bereich BigData!
+- Heterogene Daten
+- Vermeidung von Redundanzen
+- Priorisierung der Daten
+- Datensicherheit und -schutz
+- Energieeffizienz
 
 ## Erklären Sie das CAP-Theorem!
+### 3 Garantien
+- **Availability**: Jeder Client kann immer lesen und schreiben
+- **Partition Tolerance**: Das System funktioniert trotz physischer Netzwerkpartitionen gut
+- **Consistency**: Alle Clients haben stets die gleiche Sicht auf die Daten
+**Es können nur 2 Garantien erfüllt sein (nach Eric Brewer)**
