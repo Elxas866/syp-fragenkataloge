@@ -38,6 +38,8 @@ Datenverarbeitungsparadigma im Bereich BigData. Vorgehensweise:
 3. **Reduce**: Die Werte der Wertlisten werden aggregiert ausgegeben
 ### Shared-Nothing-Architektur / verteilte (Datei-)Systeme / horizontale Skalierung
 IT-Architektur, die aus mehreren autonomen Knoten besteht, die ein verteiltes System bilden. Jeder Knoten kann selbständig arbeiten.
+#### Horizontale Skalierung
+Hinzufügen zusätzlicher Rechner/Knoten
 ### NoSQL-Datenbanken
 NoSQL = Not-only SQL
 - Daten werden nicht normalisiert, kein starres Datenbankschema (Schemafreiheit)
@@ -52,6 +54,8 @@ NoSQL = Not-only SQL
 	- Graphenbasiert
 
 ## Was versteht man unter Stream- bzw Batch-basierter Verarbeitung von Daten?
+**Batch**: Daten werden angesammelt und gemeinsam verarbeitet
+**Stream**: Kontinuierliche Erfassung, Verteilung und Analyse von Daten
 
 ## Nennen und beschreiben Sie kurz die 4 logischen Schichten einer BigData-Architektur!
 1. **Datenquellen (Auswahl/Aufbereitung)**: Daten werden geprüft, korreliert, aufbereitet und transformiert um sie “speicherbereit” zu machen
